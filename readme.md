@@ -119,7 +119,7 @@ spec:
       storage: 20Gi
 ```
 
-
+This literally creates an EBS snapshot, might take few mins.
 
 ### Deploy something that uses this PVC:
 
