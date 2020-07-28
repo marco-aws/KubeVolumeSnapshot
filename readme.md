@@ -4,14 +4,14 @@
 https://docs.aws.amazon.com/eks/latest/userguide/ebs-csi.html
 
 
-### Install CSI DRIVER: 
+### Install CSI Driver: 
 
 
 ```
 kubectl apply -k "github.com/kubernetes-sigs/aws-ebs-csi-driver/deploy/kubernetes/overlays/alpha/?ref=master"
 ```
 
-### create a random PVC and PV
+### Create a random PVC and PV:
 
 ```
 kubectl apply -f https://raw.githubusercontent.com/kubernetes-sigs/aws-ebs-csi-driver/master/examples/kubernetes/dynamic-provisioning/specs/storageclass.yaml
@@ -88,7 +88,7 @@ spec:
 ```
 
 
-verify the snapshot creation: 
+### Verify the snapshot creation: 
 
 ```
 kubectl get volumesnapshot
