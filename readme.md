@@ -103,6 +103,9 @@ NAME                                               READYTOUSE   RESTORESIZE   DE
 snapcontent-8d8d1769-c41a-4cfc-8e4d-286564c868cc   true         4294967296    Delete           ebs.csi.aws.com   test-snapclass        test-snapshot    115s
 ```
 
+This literally creates an EBS snapshot, might take few mins.
+
+
 ### Create a volume from a Snapshot:
 ```
 apiVersion: v1
@@ -122,8 +125,6 @@ spec:
     requests:
       storage: 20Gi
 ```
-
-This literally creates an EBS snapshot, might take few mins.
 
 ### Deploy something that uses this PVC:
 
