@@ -99,7 +99,7 @@ NAME                                               READYTOUSE   RESTORESIZE   DE
 snapcontent-8d8d1769-c41a-4cfc-8e4d-286564c868cc   true         4294967296    Delete           ebs.csi.aws.com   test-snapclass        test-snapshot    115s
 ```
 
-### create a volume from a Snapshot
+### Create a volume from a Snapshot:
 ```
 apiVersion: v1
 kind: PersistentVolumeClaim
@@ -145,7 +145,7 @@ spec:
 ```
 
 
-### verify that the Volume contains the data: 
+### Verify that the Volume contains the data: 
 
 
 ```
