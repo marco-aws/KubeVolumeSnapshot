@@ -1,5 +1,7 @@
 ## Testing the Volume Snapshots features introduced in 1.17 
 
+Tested on a fresh 1.17 installation.
+
 Steps: 
 
 
