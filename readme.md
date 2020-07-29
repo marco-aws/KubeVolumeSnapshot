@@ -25,11 +25,6 @@ kubectl apply -f https://raw.githubusercontent.com/kubernetes-sigs/aws-ebs-csi-d
 kubectl apply -f https://raw.githubusercontent.com/kubernetes-sigs/aws-ebs-csi-driver/master/examples/kubernetes/dynamic-provisioning/specs/pod.yaml
 ```
 
-lazy version: 
-
-```
-helm install stable/prometheus --generate-name
-```
 
 ### Install Snapshot Beta CRDs:
 
